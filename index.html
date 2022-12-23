@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-        <title>Movie Guide</title>
-        <link rel="stylesheet" type=""
-    </head>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Movie Guide</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" placeholder="Enter movie name here..." id="movie-name" value="dark knight" />
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="js/key.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
